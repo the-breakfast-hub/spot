@@ -46,7 +46,7 @@ const HomeNavigator = createStackNavigator({
 });
 
 const CalendarNavigator = createStackNavigator({
-  Home: {
+  Calendar: {
     screen: CalendarScreen,
     navigationOptions: ({ navigation }) => ({
       title: 'Calendar',
@@ -70,7 +70,7 @@ const CalendarNavigator = createStackNavigator({
 });
 
 const SearchNavigator = createStackNavigator({
-  Home: {
+  Search: {
     screen: SearchScreen,
     navigationOptions: ({ navigation }) => ({
       title: 'Search',
@@ -94,7 +94,7 @@ const SearchNavigator = createStackNavigator({
 });
 
 const InboxNavigator = createStackNavigator({
-  Home: {
+  Inbox: {
     screen: InboxScreen,
     navigationOptions: ({ navigation }) => ({
       title: 'Inbox',
@@ -221,10 +221,10 @@ const AppNavigator = createMaterialBottomTabNavigator(
 export default createAppContainer(
   createSwitchNavigator(
     {
-      App: AppNavigator
+      Home: AppNavigator
     },
     {
-      initialRouteName: 'App'
+      initialRouteName: 'Home'
     }
   )
 );
