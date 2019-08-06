@@ -1,3 +1,5 @@
+# Google Spot - an Overview
+
 Spot is a cross-platform mobile application that allows users to find free time slots on multiple calendars for event consensus. Users can also calculate a central location amongst multiple attendees and Spot will recommend venues at the centroid. Users may then send complete the Create Event form for Google and send users an email to RSVP. This application is still under development.
 
 Spot is being built with React-Native and ExpressJS. It is styled with raw CSS and will use a PostgresSQL database.
